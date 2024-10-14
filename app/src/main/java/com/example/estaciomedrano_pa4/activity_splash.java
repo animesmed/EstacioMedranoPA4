@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class activity_splash extends AppCompatActivity {
 
-    public static int tiempocarga=3000;
+    public static int tiempocarga=4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
