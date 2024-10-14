@@ -21,14 +21,14 @@
             android:layout_height="wrap_content"
             android:text="Hibrido"
             android:layout_weight="1"
-            android:id="@+id/btnhibrido">
+            android:id="@+id/btnHibrido">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Terreno"
+            android:text="Vintage"
             android:layout_weight="1"
-            android:id="@+id/btnterreno">
+            android:id="@+id/btnVintage">
         </Button>
 
     </LinearLayout>
