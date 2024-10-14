@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_height="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:id="@+id/layBotones"
-        >
+        android:id="@+id/layBotones">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,19 +21,17 @@
             android:layout_height="wrap_content"
             android:text="Hibrido"
             android:layout_weight="1"
-            android:id="@+id/btnhibrido">
+            android:id="@+id/btnHibrido">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Terreno"
+            android:text="Vintage"
             android:layout_weight="1"
-            android:id="@+id/btnterreno">
+            android:id="@+id/btnVintage">
         </Button>
 
     </LinearLayout>
-
-
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -41,6 +39,6 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".mapas" />
-
+        tools:context=".mapas">
+    </fragment>
 </LinearLayout>
