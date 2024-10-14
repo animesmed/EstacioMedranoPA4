@@ -69,7 +69,7 @@ public class Mapa extends FragmentActivity implements OnMapReadyCallback, View.O
             mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
             mMap.addMarker(new MarkerOptions().position(ubicación).title("Qoricancha"));
         }
-        if (view.getId()==R.id.btnHibrido.){
+        if (view.getId()==R.id.btnHibrido){
             mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
             mMap.addMarker(new MarkerOptions().position(ubicación).title("Qoricancha"));
         }
